@@ -25,4 +25,9 @@ img.singleMovie{
 .movieCard{
     display: flex;
 }
-
+#search_movie{
+    font-size: 3rem
+}
+p{
+    max-width: 30rem;
+}
