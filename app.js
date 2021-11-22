@@ -1,5 +1,5 @@
 const heading = document.querySelector('h1');
-const url = `http://www.omdbapi.com/?apikey=f0e1bcfc&s=`;
+const url = `https://www.omdbapi.com/?apikey=f0e1bcfc&s=`;
 const searchText = document.querySelector('.movies')
 const form = document.querySelector('#movies');
 const searchResult = document.querySelector('.movie_wrapper')
