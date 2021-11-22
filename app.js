@@ -190,7 +190,7 @@ function getMovieID(){
     let output = " ";
     let movieID = localStorage.getItem('ID')
     console.log(movieID);
-    fetch(`http://www.omdbapi.com/?&apikey=f0e1bcfc&i=${movieID}` )
+    fetch(`https://www.omdbapi.com/?&apikey=f0e1bcfc&i=${movieID}` )
   .then(response => response.json())
   .then(data =>{
     
