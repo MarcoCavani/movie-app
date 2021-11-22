@@ -1,0 +1,28 @@
+.movie_wrapper, .movie_container, .movieContainer_2, .movieContainer_3{
+    
+
+
+    background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+img{
+    width: 100%;
+    pointer-events: none;
+   
+}
+img.singleMovie{
+    
+    width: inherit
+}
+
+.card{
+    display: inline-block;
+    width: 20%;
+    margin: 8px;
+
+}
+.movieCard{
+    display: flex;
+}
+
